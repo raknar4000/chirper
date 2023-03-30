@@ -18,7 +18,7 @@ host('ta21lall.itmajakas.ee')
     ->set('branch', 'master');
 
 // Tasks
-set('repository', 'git@github.com:raknar4000/HAJUS.git');
+set('repository', 'git@github.com:raknar4000/chirper.git');
 //Restart opcache
 task('opcache:clear', function () {
     run('killall php81-cgi || true');
